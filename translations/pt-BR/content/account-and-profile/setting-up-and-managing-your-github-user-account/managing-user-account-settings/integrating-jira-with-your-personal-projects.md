@@ -1,6 +1,6 @@
 ---
 title: Integrar o Jira com seus projetos pessoais
-intro: 'É possível integrar o Jira Cloud à sua conta de usuário para analisar commits e pull requests, criando metadados e hyperlinks relevantes em qualquer problema mencionado no Jira.'
+intro: 'You can integrate Jira Cloud with your personal account to scan commits and pull requests, creating relevant metadata and hyperlinks in any mentioned Jira issues.'
 redirect_from:
   - /articles/integrating-jira-with-your-personal-projects
   - /github/setting-up-and-managing-your-github-user-account/integrating-jira-with-your-personal-projects
@@ -11,8 +11,8 @@ versions:
 shortTitle: Integrar o Jira com projetos
 ---
 
-{% data reusables.user_settings.access_settings %}
-{% data reusables.user_settings.developer_settings %}
+{% data reusables.user-settings.access_settings %}
+{% data reusables.user-settings.developer_settings %}
 {% data reusables.user-settings.oauth_apps %}
 1. Clique em **Register a new application** (Registrar novo aplicativo).
 2. Em **Application name** (Nome do aplicativo), digite "Jira".
@@ -20,7 +20,7 @@ shortTitle: Integrar o Jira com projetos
 4. Em **Authorization callback URL** (URL de revogação de autorização), digite a URL completa da sua instância do JIRA.
 5. Clique em **Register application** (Registrar aplicativo). ![Botão Register application (registrar aplicativo)](/assets/images/help/oauth/register-application-button.png)
 8. Em **Aplicativos do desenvolvedor**, anote os valores "Client ID" (ID do cliente) e "Client Secret" (Chave secreta do cliente). ![Client ID (ID do cliente) e Client Secret (Chave secreta do cliente)](/assets/images/help/oauth/client-id-and-secret.png)
-{% data reusables.user_settings.jira_help_docs %}
+{% data reusables.user-settings.jira_help_docs %}
 
 ## Leia mais
 

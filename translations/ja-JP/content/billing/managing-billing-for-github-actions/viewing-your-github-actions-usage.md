@@ -18,12 +18,12 @@ shortTitle: Actionsの使用状況の表示
 
 個々のワークフロー実行について、請求可能なジョブ実行の時間（分）を確認することもできます。 詳しい情報については、「[ジョブの実行時間を表示する](/actions/managing-workflow-runs/viewing-job-execution-time)」を参照してください。
 
-## ユーザアカウントの {% data variables.product.prodname_actions %} の使用状況を表示する
+## Viewing {% data variables.product.prodname_actions %} usage for your personal account
 
-自身のユーザアカウントの {% data variables.product.prodname_actions %} の使用状況は、誰でも表示できます。
+Anyone can view {% data variables.product.prodname_actions %} usage for their own personal account.
 
-{% data reusables.user_settings.access_settings %}
-{% data reusables.user_settings.billing_plans %}
+{% data reusables.user-settings.access_settings %}
+{% data reusables.user-settings.billing_plans %}
 {% data reusables.dotcom_billing.actions-minutes %}
 {% data reusables.dotcom_billing.actions-packages-storage %}
 {% data reusables.dotcom_billing.actions-packages-report-download %}
@@ -35,7 +35,7 @@ Organization については、Organization のオーナーと支払いマネー
 {% data reusables.organizations.billing-settings %}
 {% data reusables.dotcom_billing.actions-minutes %}
 {% data reusables.dotcom_billing.actions-packages-storage %}
-{% data reusables.dotcom_billing.actions-packages-report-download %}
+{% data reusables.dotcom_billing.actions-packages-report-download-org-account %}
 
 ## Enterprise アカウントの {% data variables.product.prodname_actions %} の使用状況を表示する
 
@@ -43,7 +43,7 @@ Enterprise アカウントについては、Enterprise オーナーと支払い�
 
 {% note %}
 
-**注釈:** Enterprise アカウントの支払い詳細には、オペレーティングシステムごとの利用時間 (分) の概要は示されません。 {% data reusables.github-actions.enterprise-billing-details %}
+**注釈:** Enterprise アカウントの支払い詳細には、オペレーティングシステムごとの利用時間 (分) の概要は示されません。 {% data reusables.actions.enterprise-billing-details %}
 
 {% endnote %}
 

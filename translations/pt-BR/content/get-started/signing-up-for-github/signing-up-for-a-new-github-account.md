@@ -1,7 +1,7 @@
 ---
 title: Fazer o registro em uma conta conta do GitHub
 shortTitle: Inscreva-se para uma nova conta no GitHub
-intro: 'O {% data variables.product.company_short %} oferece contas de usuário para pessoas e organizações para que equipes de pessoas trabalhem juntas.'
+intro: '{% data variables.product.company_short %} offers personal accounts for individuals and organizations for teams of people working together.'
 redirect_from:
   - /articles/signing-up-for-a-new-github-account
   - /github/getting-started-with-github/signing-up-for-a-new-github-account
@@ -21,6 +21,7 @@ Ao criar uma conta pessoal ou organização, você deve selecionar um plano de c
 
 ## Inscrevendo-se em uma nova conta
 
+1. Se você deseja criar uma nova conta pessoal, certifique-se de que você está desconectado do GitHub.
 {% data reusables.accounts.create-account %}
 1. Siga as instruções para criar a conta pessoa ou organização.
 

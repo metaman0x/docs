@@ -14,6 +14,8 @@ shortTitle: 连接 IdP
 
 为您的 {% data variables.product.product_name %} 组织启用 SAML SSO时，会将您的身份提供商 (IDP) 连接到组织。 更多信息请参阅“[对组织启用并测试 SAML 单点登录](/organizations/managing-saml-single-sign-on-for-your-organization/enabling-and-testing-saml-single-sign-on-for-your-organization)”。
 
+{% data reusables.saml.ghec-only %}
+
 您可以在 IdP 文档中找到 IdP 的 SAML 和 SCIM 实现详细信息。
 - Active Directory Federation Services (AD FS) [SAML](https://docs.microsoft.com/windows-server/identity/active-directory-federation-services)
 - Azure Active Directory (Azure AD) [SAML](https://docs.microsoft.com/azure/active-directory/active-directory-saas-github-tutorial) 和 [SCIM](https://docs.microsoft.com/azure/active-directory/active-directory-saas-github-provisioning-tutorial)
@@ -22,7 +24,7 @@ shortTitle: 连接 IdP
 - PingOne [SAML](https://support.pingidentity.com/s/marketplace-integration/a7i1W0000004ID3QAM/github-connector)
 - Shibboleth [SAML](https://wiki.shibboleth.net/confluence/display/IDP30/Home)
 
-You can access your organization's service provider metadata at the following URL, replacing ORGANIZATION with your organization's username.
+您可以通过以下 URL 访问组织的服务提供商元数据，将 ORGANIZATION 替换为您的组织的用户名。
 
 ```
 http(s)://github.com/orgs/ORGANIZATION/saml/metadata.xml

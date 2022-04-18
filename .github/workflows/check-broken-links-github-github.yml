@@ -44,13 +44,15 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@1f8c6b94b26d0feae1e387ca63ccbdc44d27b561
         with:
-          node-version: 16.13.x
+          node-version: 16.14.x
           cache: npm
 
       - name: Install Node.js dependencies
         run: npm ci
 
       - name: Run broken github/github link check
+        env:
+          WAF_TOKEN: ${{ secrets.WAF_TOKEN }}
         run: |
           script/check-github-github-links.js > broken_github_github_links.md
 
